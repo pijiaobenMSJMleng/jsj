@@ -229,7 +229,7 @@ local function Ripple(obj)
         Ripple.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         Ripple.BackgroundTransparency = 1.000
         Ripple.ZIndex = 8
-        Ripple.Image = "rbxassetid://2708891598"
+        Ripple.Image = "rbxassetid://75060399713263"
         Ripple.ImageTransparency = 0.800
         Ripple.ScaleType = Enum.ScaleType.Fit
         Ripple.ImageColor3 = Color3.fromRGB(255, 255, 255)
@@ -418,7 +418,7 @@ function Cloudlib.Window(Cloudlib, name, theme)
     DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
     DropShadow.Size = UDim2.new(1, 43, 1, 43)
     DropShadow.ZIndex = 0
-    DropShadow.Image = "rbxassetid://75060399713263"
+    DropShadow.Image = "rbxassetid://6015897843"
     DropShadow.ImageColor3 = Color3.fromRGB(255, 255, 255)
     DropShadow.ImageTransparency = 0.500
     DropShadow.ScaleType = Enum.ScaleType.Slice
