@@ -42,6 +42,67 @@ Section:Toggle(Locale.Noclip, "Noclip", false, function(Value)
     end
 end)
 
+Section:Button(Locale.chat, "chat",function()
+    textcolour = Color3.new(0,0,0)
+
+game:GetService("Chat").BubbleChatEnabled = true
+
+coroutine.wrap(function()
+    while wait() do
+        for i = 0,255,10 do
+            textcolour = Color3.new(255/255,i/255,0/255)
+            wait()
+        end
+        for i = 255,0,-10 do
+            textcolour = Color3.new(i/255,255/255,0/255)
+            wait()
+        end
+        for i = 0,255,10 do
+            textcolour = Color3.new(0/255,255/255,i/255)
+            wait()
+        end
+        for i = 255,0,-10 do
+            textcolour = Color3.new(0/255,i/255,255/255)
+            wait()
+        end
+        for i = 0,255,10 do
+            textcolour = Color3.new(i/255,0/255,255/255)
+            wait()
+        end
+        for i = 255,0,-10 do
+            textcolour = Color3.new(255/255,0/255,i/255)
+            wait()
+        end
+    end
+end)()
+
+local settings = {
+
+}
+
+while wait() do
+    pcall(function()
+            game:GetService("Chat"):SetBubbleChatSettings({
+            TextColor3 = textcolour,
+            BubbleDuration = 20,
+            MaxBubbles = 20,
+            BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+            TextSize = 16,
+            Font = Enum.Font.Ubuntu,
+            Transparency = .1,
+            CornerRadius = UDim.new(0, 30),
+            TailVisible = true,
+            Padding = 8,
+            MaxWidth = 500,
+            VerticalStudsOffset = 0,
+            BubblesSpacing = 3,
+            MinimizeDistance = 250,
+            MaxDistance = 500,
+        })
+    end)
+end
+end)
+
 Section = Window:Tab(Locale.Interact):Section("Main", true)
 
 Section:Toggle(Locale.Fast, "Fast")
