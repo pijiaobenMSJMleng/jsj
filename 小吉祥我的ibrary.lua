@@ -69,6 +69,7 @@ local Language = {
         Jump = "跳跃高度",
         Gravity = "重力",
         InfJump = "踏空",
+        chat = "聊天气泡美化",
         Noclip = "穿墙",
         Invisible = "隐身",
         Interact = "互动",
