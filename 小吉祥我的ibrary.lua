@@ -418,7 +418,7 @@ function Cloudlib.Window(Cloudlib, name, theme)
     DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
     DropShadow.Size = UDim2.new(1, 43, 1, 43)
     DropShadow.ZIndex = 0
-    DropShadow.Image = "rbxassetid://6015897843"
+    DropShadow.Image = "rbxassetid://75060399713263"
     DropShadow.ImageColor3 = Color3.fromRGB(255, 255, 255)
     DropShadow.ImageTransparency = 0.500
     DropShadow.ScaleType = Enum.ScaleType.Slice
@@ -634,7 +634,7 @@ function Cloudlib.Window(Cloudlib, name, theme)
     Open.Parent = dogent
     Open.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
     Open.BackgroundTransparency = 0.5
-    Open.Image = "rbxassetid://75060399713263"
+    Open.Image = "rbxassetid://75508648593177"
     Open.Position = UDim2.new(0.8, 0, 0, 0)
     Open.Size = UDim2.new(0, 50, 0, 50)
     Open.Active = true
