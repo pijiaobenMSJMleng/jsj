@@ -134,10 +134,6 @@ local UITab6 = win:Tab("『通用』",'87437251671184')
 
 local about = UITab6:section("『通用』",true)
 
-local Players = SelectPlayer:Dropdown("选择玩家", 'Dropdown', dropdown, function(v)
-    playernamedied = v
-end)
-
 game.Players.ChildAdded:Connect(function(player)
     dropdown[player.UserId] = player.Name
     Players:AddOption(player.Name)
