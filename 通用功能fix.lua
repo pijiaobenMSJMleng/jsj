@@ -24,7 +24,7 @@ function Notify(top, text, ico, dur)
   })
 end
 
-local Lengui = loadstring(game:HttpGet(""))()     
+local Lengui = loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/hun/main/jmlibrary1.lua"))()     
 local win = Lengui:new("冷脚本")
 --
 local UITab1 = win:Tab("『信息』",'87437251671184')
