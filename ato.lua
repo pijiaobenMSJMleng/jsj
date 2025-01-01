@@ -1,4 +1,4 @@
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/pijiaobenMSJMleng/jsj/refs/heads/main/REDzGui.lua"))()
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/atoyayaya/REDz-ui/refs/heads/main/REDzGui"))()
 
 local Window = redzlib:MakeWindow({
   Title = "孙雪怡皇帝专用",
